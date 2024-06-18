@@ -1,0 +1,16 @@
+name:                gwern-net
+version:             0.1.0.0
+synopsis:            Gwern.net site infrastructure
+description:         Custom Hakyll website with unique features.
+license:             MIT
+license-file:        LICENSE
+author:              Gwern Branwen
+maintainer:          your-email@example.com
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable site
+  main-is:           site.hs
+  build-depends:     base >=4.7 && <5, hakyll
+  default-language:  Haskell2010
